@@ -1,0 +1,5 @@
+C:\Users\w_askar\Desktop\C#\Bank\obj\Release\net6.0\Bank.csproj.AssemblyReference.cache
+C:\Users\w_askar\Desktop\C#\Bank\obj\Release\net6.0\Bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\w_askar\Desktop\C#\Bank\obj\Release\net6.0\Bank.AssemblyInfoInputs.cache
+C:\Users\w_askar\Desktop\C#\Bank\obj\Release\net6.0\Bank.AssemblyInfo.cs
+C:\Users\w_askar\Desktop\C#\Bank\obj\Release\net6.0\Bank.csproj.CoreCompileInputs.cache

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Bank.Konto">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAEAAAAAAAAAAAAAAAAAACAACAAAAAAAAA=</HashCode>
+      <FileName>Konto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bank" />
+      <Property Name="Kunde" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bank.Kunde">
+    <Position X="9" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Kunde.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bank" />
+      <Property Name="Konto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Bank.Bank">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAQBAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bank.TermingeldKonto">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Termingeldkonto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bank.GiroKonto">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>GiroKonto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bank.SparKonto">
+    <Position X="7.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>SparKonto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bank.BankSimulation">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>BankSimulation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bank.KontoMitEAUe">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAIAAAAAAA=</HashCode>
+      <FileName>KontoMitEAUe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bank.DB">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>DB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Bank.IZinssatz">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>IZinsatz.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
